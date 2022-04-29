@@ -35,8 +35,6 @@ function mediana() {
         const secondMiddleIndex = middleIndex - 1;
         const values = [sortedList[middleIndex], sortedList[secondMiddleIndex]];
         let resultado = (values[0] + values[1]) / 2;
-
-        console.log(resultado);
         
         result.innerText = `La mediana es ${resultado}`;
     } else {
@@ -72,5 +70,5 @@ function moda() {
 
     const moda = listAray[listAray.length - 1];
 
-    result.innerText = `La moda es ${moda}`;
+    result.innerText = `La moda es ${moda[0]}`;
 }
