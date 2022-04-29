@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedios</title>
+    <link rel="stylesheet" href="promedios.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+
+        <div class="card">
+
+            <section class="info">
+
+                <h1>Media, moda y mediana</h1>
+    
+                <h2>Introduce un grupo de elementos para calcular diferentes promedios.</h2>
+
+                <p>Introduce los elementos seguidos de una coma, sin espacios. Así: 1,2,3,4,5,6,7</p>
+    
+            </section>
+    
+            <section class="calc">
+    
+                <form action="">
+    
+                    <input type="text" id="lista" placeholder="Introduce aquí tu lista de elementos">
+                    
+    
+                    <button type="button" onclick="media()">Media</button>
+
+                    <button type="button" onclick="mediana()">Mediana</button>
+
+                    <button type="button" onclick="moda()">Moda</button>
+    
+                </form>
+
+                <div class="result"> <span id="result"></span> </div>
+    
+            </section>
+
+        </div>
+
+        
+    </main>
+
+    <script src="promedios.js"></script>
+    
+</body>
+</html>
